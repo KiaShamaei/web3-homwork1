@@ -1,0 +1,26 @@
+.container {
+	width: 960px;
+	display: flex;
+	margin: 0 auto;
+}
+.para {
+	flex:30%;
+	padding: 10px;
+}
+.imageRol{
+	flex: 40%;
+	padding: 10px;
+	
+}
+.imageRol img{
+	margin-left: 30px;
+}
+.chosenPart{
+	flex:30%;
+	padding: 10px;
+	
+	
+}
+#chooseMethod{
+margin: 10px 0 10px 0;
+}

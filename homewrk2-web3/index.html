@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<title>Rock paper scissors</title>
+</head>
+<body>
+	<div class="container">
+		<div class="para">
+			Rock paper scissors (also known by other permutations such as scissors paper rock, scissors paper stone or ro-sham-bo) is a hand game usually played between two people
+		</div>
+		<div class="chosenPart">
+			<form>
+			<label for="choose">please choose your Act from impage and type it here:</label>
+			<input type="text" name="choose" id="chooseMethod" placeholder="Rock ~ paper ~ scissors">
+			</form>
+			<button onclick="resultGame()">Click me</button>
+			<div id="result"></div>
+		</div>
+		<div class="imageRol">
+			<img src="./Rock-paper-scissors.svg.png" alt="image" width="200px" height="200px">
+		</div>
+	</div>
+	<script src="./app.js"></script>
+</body>
+</html>
